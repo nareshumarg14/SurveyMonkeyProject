@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="13174" started-at="2023-02-27T18:28:04Z" finished-at="2023-02-27T18:28:17Z">
+    <groups>
+    </groups>
+    <test name="TC001_VerifyLoginLink" duration-ms="7983" started-at="2023-02-27T18:28:04Z" finished-at="2023-02-27T18:28:12Z">
+      <class name="testCases.TC001_VerifyLoginLink">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_VerifyLoginLink@21a451]" name="setup" is-config="true" duration-ms="6851" started-at="2023-02-27T18:28:04Z" finished-at="2023-02-27T18:28:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginLinkTest()[pri:0, instance:testCases.TC001_VerifyLoginLink@21a451]" name="verifyLoginLinkTest" duration-ms="234" started-at="2023-02-27T18:28:11Z" finished-at="2023-02-27T18:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLinkTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TC001_VerifyLoginLink@21a451]" name="teardown" is-config="true" duration-ms="881" started-at="2023-02-27T18:28:11Z" finished-at="2023-02-27T18:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_VerifyLoginLink -->
+    </test> <!-- TC001_VerifyLoginLink -->
+    <test name="TC002_VerifySignupfreeLink" duration-ms="5184" started-at="2023-02-27T18:28:12Z" finished-at="2023-02-27T18:28:17Z">
+      <class name="testCases.TC002_VerifySignupfreeLink">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC002_VerifySignupfreeLink@1ba6d4e]" name="setup" is-config="true" duration-ms="3959" started-at="2023-02-27T18:28:12Z" finished-at="2023-02-27T18:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySignupfreeLinkTest()[pri:0, instance:testCases.TC002_VerifySignupfreeLink@1ba6d4e]" name="verifySignupfreeLinkTest" duration-ms="321" started-at="2023-02-27T18:28:16Z" finished-at="2023-02-27T18:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupfreeLinkTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.TC002_VerifySignupfreeLink@1ba6d4e]" name="teardown" is-config="true" duration-ms="903" started-at="2023-02-27T18:28:16Z" finished-at="2023-02-27T18:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_VerifySignupfreeLink -->
+    </test> <!-- TC002_VerifySignupfreeLink -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
